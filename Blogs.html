@@ -21,7 +21,7 @@
                     </div>
 
                     <div>
-                        <button class="btn bg-blue-500 text-gray-100 border-none ">Back To Desk</button>
+                        <button id="backDesk" class="btn bg-blue-500 text-gray-100 border-none ">Back To Desk</button>
                     </div>
                 </nav>
             </Header>
@@ -61,11 +61,13 @@
                 </div>
 
             </div>
-
-
             </div>
 
 
-
+<script>
+    document.querySelector('#backDesk').addEventListener('click',function(){
+    window.location.href = 'index.html'
+})
+</script>
 </body>
 </html>
