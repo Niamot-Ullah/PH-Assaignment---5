@@ -1,5 +1,3 @@
-let count = 0;
-
 
 // task1
 document.getElementById('task1').addEventListener('click',function(event){
@@ -24,10 +22,12 @@ document.getElementById('task1').addEventListener('click',function(event){
     historyAdd.appendChild(div)
 // button disable 
     this.disabled = true;
-
-
-    count=count+1;
-    return count
+    //last alert
+    let count = document.getElementById('taskAssigned').innerText
+let counted = parseInt(count)
+if(counted === 0){
+    alert('congratulations! You have completed all the current task')
+}
 })
 
 // task2
@@ -53,6 +53,12 @@ document.getElementById('task2').addEventListener('click',function(event){
     historyAdd.appendChild(div)
 // button disable 
     this.disabled = true;
+    //last alert
+    let count = document.getElementById('taskAssigned').innerText
+let counted = parseInt(count)
+if(counted === 0){
+    alert('congratulations! You have completed all the current task')
+}
 })
 
 // task3
@@ -78,6 +84,12 @@ document.getElementById('task3').addEventListener('click',function(event){
     historyAdd.appendChild(div)
 // button disable 
     this.disabled = true;
+    //last alert
+    let count = document.getElementById('taskAssigned').innerText
+let counted = parseInt(count)
+if(counted === 0){
+    alert('congratulations! You have completed all the current task')
+}
 })
 
 // task4
@@ -103,6 +115,12 @@ document.getElementById('task4').addEventListener('click',function(event){
     historyAdd.appendChild(div)
 // button disable 
     this.disabled = true;
+    //last alert
+    let count = document.getElementById('taskAssigned').innerText
+let counted = parseInt(count)
+if(counted === 0){
+    alert('congratulations! You have completed all the current task')
+}
 })
 
 // task5
@@ -128,6 +146,13 @@ document.getElementById('task5').addEventListener('click',function(event){
     historyAdd.appendChild(div)
 // button disable 
     this.disabled = true;
+
+    //last alert
+    let count = document.getElementById('taskAssigned').innerText
+let counted = parseInt(count);
+if(counted === 0){
+    alert('congratulations! You have completed all the current task')}
+
 })
 
 // task6
@@ -153,6 +178,13 @@ document.getElementById('task6').addEventListener('click',function(event){
     historyAdd.appendChild(div)
 // button disable 
     this.disabled = true;
+
+//last alert
+    let count = document.getElementById('taskAssigned').innerText
+let counted = parseInt(count)
+if(counted === 0){
+    alert('congratulations! You have completed all the current task')
+}
 })
 
-console.log(count)
+
