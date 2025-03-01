@@ -1,6 +1,6 @@
 // Discover section added 
 document.querySelector('#taskAssigned2').addEventListener('click',function(){
-    window.location.href = '../Blogs.html'
+    window.location.href = '../HTML/Blogs.html'
 })
 
 
